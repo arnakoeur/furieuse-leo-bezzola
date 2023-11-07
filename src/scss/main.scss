@@ -33,8 +33,7 @@ body {
 
 section {
   position: relative;
-  width: 100%;
-  aspect-ratio: 1 / 1;
+  height: 100vw;
   display: flex;
   justify-content: center;
 }
@@ -70,10 +69,25 @@ section {
 
 .test {
   position: relative;
-  top: 0;
   z-index: 100000;
   height: 4000px;
   background-color: black;
+}
+
+.roi {
+  margin: 130 80px;
+  position: relative;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.para-roi {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  overflow: hidden;
 }
 
 a {
