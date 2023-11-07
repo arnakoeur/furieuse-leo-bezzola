@@ -27,11 +27,53 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+  margin: 0;
+  background-color: #ffbfd1;
 }
 
-.para-titre {
+section {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+}
+
+// section ::before {
+//   content: "";
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   width: 100%;
+// }
+
+.para-title {
   position: absolute;
-  aspect-ratio: 100vh / auto;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.para-title-logo {
+  margin-top: 400px;
+  max-height: 200px;
+  object-fit: cover;
+  z-index: 100;
+}
+
+.para-title-ysa,
+.para-title-fore,
+.para-title-mid {
+  z-index: 1000;
+}
+
+.test {
+  position: relative;
+  top: 0;
+  z-index: 100000;
+  height: 4000px;
+  background-color: black;
 }
 
 a {
