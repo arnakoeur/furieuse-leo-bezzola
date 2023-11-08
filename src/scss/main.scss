@@ -74,20 +74,20 @@ body {
 .wrapper-chara {
   position: relative;
   z-index: 100000;
-  height: 4000px;
   background-color: black;
 }
 
 .roi {
+  border: red solid 2px;
   position: relative;
   padding-bottom: 30px;
   display: flex;
   justify-content: center;
   height: 50vw;
+  overflow: hidden;
 }
 
 .para-roi {
-  margin-top: 30px;
   position: absolute;
   top: 0;
   left: 0;
@@ -97,7 +97,18 @@ body {
   transform: translate3d(0, 0, 0);
 }
 
+.para-ysa-bg {
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.para-roi-bg {
+  overflow: hidden;
+  object-fit: cover;
+}
+
 .ysa {
+  border: red solid 2px;
   position: relative;
   display: flex;
   justify-content: center;
@@ -106,7 +117,6 @@ body {
 }
 
 .para-ysa {
-  margin-top: 30px;
   position: absolute;
   top: 0;
   left: 0;
@@ -121,9 +131,23 @@ body {
   rotate: 180deg;
 }
 
-.para-ysa-bg {
+.epee {
+  border: red solid 2px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 50vw;
   overflow: hidden;
+}
+
+.para-epee {
+  position: absolute;
+  top: 0;
+  left: 0;
   object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+  transform: translate3d(0, 0, 0);
 }
 
 a {
