@@ -74,3 +74,25 @@ gsap.to(".para-title-fore", {
   },
   y: -900,
 });
+
+gsap.from(".para-ysa-bg", {
+  scrollTrigger: {
+    trigger: ".para-ysa-bg",
+    start: "bottom bottom",
+    end: "top top",
+    markers: true,
+    scrub: true,
+  },
+  y: -50,
+});
+
+gsap.to(".para-ysa-bg", {
+  scrollTrigger: {
+    trigger: ".para-ysa-bg",
+    start: "bottom bottom",
+    end: "top top",
+    markers: true,
+    scrub: true,
+  },
+  y: 90,
+});

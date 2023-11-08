@@ -22,20 +22,22 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
+  -webkit-transform: translate3d(0, 0, 0);
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
 
   font-size: 1rem;
   line-height: 1.25;
   margin: 0;
-  background-color: #ffbfd1;
+  background-color: black;
 }
 
-section {
+.titre {
   position: relative;
   height: 100vw;
   display: flex;
   justify-content: center;
+  background-color: #ffbfd1;
 }
 
 // section ::before {
@@ -50,8 +52,10 @@ section {
   position: absolute;
   top: 0;
   left: 0;
+  width: 100%;
   object-fit: cover;
   overflow: hidden;
+  transform: translate3d(0, 0, 0);
 }
 
 .para-title-logo {
@@ -67,7 +71,7 @@ section {
   z-index: 1000;
 }
 
-.test {
+.wrapper-chara {
   position: relative;
   z-index: 100000;
   height: 4000px;
@@ -75,19 +79,51 @@ section {
 }
 
 .roi {
-  margin: 130 80px;
   position: relative;
-  height: 100vw;
+  padding-bottom: 30px;
   display: flex;
   justify-content: center;
+  height: 50vw;
 }
 
 .para-roi {
+  margin-top: 30px;
   position: absolute;
   top: 0;
   left: 0;
   object-fit: cover;
   overflow: hidden;
+  width: 100%;
+  transform: translate3d(0, 0, 0);
+}
+
+.ysa {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  height: 50vw;
+  overflow: hidden;
+}
+
+.para-ysa {
+  margin-top: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  overflow: hidden;
+  width: 100%;
+  transform: translate3d(0, 0, 0);
+}
+
+.para-ysa-gd-t {
+  padding-top: 30px;
+  rotate: 180deg;
+}
+
+.para-ysa-bg {
+  overflow: hidden;
+  object-fit: cover;
 }
 
 a {
