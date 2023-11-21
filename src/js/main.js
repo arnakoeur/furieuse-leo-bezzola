@@ -277,7 +277,7 @@ gsap.to(".slider-track", {
   scrollTrigger: {
     trigger: ".slider-mask",
     start: "top top",
-    end: "+=300%",
+    end: "+=400%",
     pin: true,
     scrub: true,
   },

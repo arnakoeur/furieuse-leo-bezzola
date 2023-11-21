@@ -133,7 +133,8 @@ body {
   justify-content: center;
   height: 50vw;
   overflow: hidden;
-  padding-bottom: 700px;
+  padding-bottom: 900px;
+  margin-bottom: 300px;
 }
 
 .para-epee {
@@ -232,6 +233,12 @@ body {
   z-index: 8;
 }
 
+.screen-1 .ysa-txt {
+  height: 35%;
+  left: 9%;
+  z-index: 1000;
+}
+
 .screen-2 .chara-roi {
   position: absolute;
   height: 100vh;
@@ -260,6 +267,12 @@ body {
   left: 39%;
 }
 
+.screen-2 .roi-txt {
+  height: 35%;
+  left: 34.4%;
+  z-index: 1000;
+}
+
 .screen-3 .chara-baron {
   position: absolute;
   height: 100vh;
@@ -283,6 +296,12 @@ body {
   z-index: 5;
 }
 
+.screen-3 .baron-txt {
+  height: 34%;
+  left: 58%;
+  z-index: 1000;
+}
+
 .screen-4 .chara-epee {
   position: absolute;
   height: 100vh;
@@ -303,6 +322,12 @@ body {
   left: 69%;
   height: 100vh;
   z-index: 8;
+}
+
+.screen-4 .epee-txt {
+  height: 37%;
+  left: 82%;
+  z-index: 1000;
 }
 
 .buy-container {
@@ -349,8 +374,12 @@ body {
   margin-top: 150px;
 }
 
+footer {
+  border-top: white solid 1px;
+}
+
 .footer-logo {
-  height: 25%;
+  width: 20%;
   padding-bottom: 40px;
   padding-top: 70px;
 }
@@ -361,6 +390,37 @@ body {
   color: #404040;
   display: block;
   text-decoration: none;
+}
+
+.footer-link-1 {
+  padding-bottom: 10px;
+}
+
+.footer-link-2 {
+  padding-bottom: 80px;
+}
+
+.footer-link-news {
+  color: white;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 58px;
+}
+
+.social-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-politics-txt {
+  position: absolute;
+  left: 40%;
+  font-family: Katari;
+  font-size: 20px;
+  color: #7d7d7d;
 }
 
 a {
