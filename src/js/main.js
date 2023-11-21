@@ -284,3 +284,89 @@ gsap.to(".slider-track", {
   x: "-75%",
   ease: "sine.inOut",
 });
+
+gsap.from(".ysa-horse", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=80%",
+    end: "+=0%",
+    markers: true,
+    scrub: true,
+  },
+  y: "+=5%",
+  x: "+=-5%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".ysa-horse", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=0%",
+    end: "+=80%",
+    markers: true,
+    scrub: true,
+  },
+  y: "+=-3%",
+  x: "+=3%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".ysa-txt", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=0%",
+    end: "+=80%",
+    markers: true,
+    scrub: true,
+  },
+  scale: 1.07,
+  ease: "sine.inOut",
+});
+
+gsap.from(".roi-mad", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=-80%",
+    end: "+=0%",
+    markers: true,
+    scrub: true,
+  },
+  y: "+=5%",
+  ease: "sine.inOut",
+});
+
+gsap.to(".roi-mad", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=100%",
+    end: "+=100%",
+    markers: true,
+    scrub: true,
+  },
+  y: "+=-3%",
+  ease: "sine.inOut",
+});
+
+gsap.from(".roi-mad", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=-80%",
+    end: "+=0%",
+    markers: true,
+    scrub: true,
+  },
+  scale: 0.4,
+  ease: "sine.inOut",
+});
+
+gsap.to(".roi-txt", {
+  scrollTrigger: {
+    trigger: ".slider-track",
+    start: "+=100%",
+    end: "+=100%",
+    markers: true,
+    scrub: true,
+  },
+  scale: 1.1,
+  ease: "sine.inOut",
+});

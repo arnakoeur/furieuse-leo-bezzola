@@ -207,6 +207,7 @@ body {
 }
 
 .screen-bg {
+  height: 100vh;
   object-fit: cover;
   z-index: 0;
 }
@@ -376,6 +377,7 @@ body {
 
 footer {
   border-top: white solid 1px;
+  margin-top: 150px;
 }
 
 .footer-logo {
