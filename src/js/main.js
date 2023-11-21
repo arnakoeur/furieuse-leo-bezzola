@@ -280,7 +280,6 @@ gsap.to(".slider-track", {
     end: "+=300%",
     pin: true,
     scrub: true,
-    markers: true,
   },
   x: "-75%",
   ease: "sine.inOut",
